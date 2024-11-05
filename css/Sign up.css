@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+input {
+  display: block;
+  margin-bottom: 48px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-bottom: 8px;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.form-container #form-header h1 {
+  font-size: 24px;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+hr{
+  margin:0rem 0rem 5rem 0rem;
+  border: 1px solid black;
+}
+
+.form-container #form-header {
+  text-align: center;
+}
+
+.form-container .form-button {
+  display: block;
+  width: 100%;
+  border: none;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #0AEFEF;
+  margin: 16px 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-container .form-button:hover{
+  background-color:#07B6B6 ;
+}
+
+.form-container form p, .form-forgot {
+  font-size: 11px;
+}
+
+.form-link{
+  color: #656565;
+}
+.form-link:hover{
+  color: #f1eded;
+}
+
+.form-forgot{
+  color:#0AEFEF;  
+}
+.form-forgot:hover{
+  color:#07B6B6;  
+}
+
+.half-container{
+  display:none;
+}
+
+.half-container {
+  background-image: url('/assets/images/Trading\ on\ Smartphones_\ Embracing\ New\ Technology.jpeg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgb(7, 14, 32);
+  background-blend-mode: overlay; /* Blend mode */
+  background-size: cover; /* Makes the image cover the whole div */
+  background-position: center; 
+}
+.half-content {
+  padding: 5%;
+  /* background-color: rgba(7, 14, 32, 0.89); */
+}
+
+.half-container .half-content {
+  z-index: 2;
+  color: white;
+}
+
+.half-head {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  line-height: 55px;
+  color: #FFF600;
+}
+
+.half-text {
+  font-size: 12px;
+  font-weight: 300;
+}
+.half-logo{
+  width: 132px;
+  margin-bottom: 8rem;
+}
