@@ -7,19 +7,21 @@
   <title>Denab Brokers Solution</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="fontawesome-free-6.5.1-web\all.css">
   <link rel="stylesheet" href="css\test.css">
   <link rel="stylesheet" href="css\media-queries.css">
   <link rel="stylesheet" href="bootstrap-5.3.3-dist\css\bootstrap.css">
-  <link rel="stylesheet" href="fontawesome-free-6.5.1-web\all.css">
+
   <script src="bootstrap-5.3.3-dist\js\bootstrap.js"></script>
+  <script src="https://kit.fontawesome.com/67239c1e3d.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="index">
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="assets/images/Denab.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="assets\images\Denab.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,13 +49,13 @@
         <hr class="nav-line">
         <div class="nav-lang">
           <button onclick="window.open('Sign up.html' , '_blank')"  class="btn-1 text-center">Sign up</button>
-          <button class="btn-2 text-center">Register</button>
+          <button onclick="window.open('login.html' , '_blank')" class="btn-2 text-center">Register</button>
 
           <form class="d-flex flex-column " role="search">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu2" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fa-sharp fa-solid fa-globe"></i> EN
+                <i class="fa-solid fa-globe"></i> EN
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item text-dark" href="#">Francais</a>
@@ -73,7 +75,7 @@
   <div class="hero">
     <div class="video-background">
       <video autoplay loop muted playsinline>
-        <source src="/assets/images/background video.mp4" type="video/mp4">
+        <source src="assets\images\background video.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <div class="content hero-wrap">
@@ -94,7 +96,7 @@
   <section class="trade-assets">
     <h1 class="trade-head">Trade assets from Global Market</h1>
     <p class="trade-text">Capitalize on every opportunity with the world’s most popular assets.</p>
-    <img class="img-fluid" src="assets/images/trade asset.png" alt="">
+    <img class="img-fluid" src="assets\images\trade asset.png" alt="">
     <div class="buttons">
       <button onclick="window.open('Sign up.html' , '_blank')" class="btn-3">Register</button>
       <buttonon click="window.open('Sign up.html' , '_blank')" class="btn-4">Try demo</button>
@@ -107,7 +109,7 @@
   <section class="assurance">
     <div class="half-1">
       <div class="half-wrap">
-        <img class="icon-1" src="assets/images/rocket.svg" alt="">
+        <i class="fa-solid fa-rocket icon-1"></i>
 
         <h1 class="assurance-head">Seize every opportunity</h1>
         <p class="assurance-text">
@@ -121,7 +123,7 @@
 
     <div class="half-2">
       <div class="half-wrap">
-        <img class="icon-2" src="assets/images/shield.svg" alt="">
+        <i class="fa-solid fa-shield icon-2"></i>
         <h1 class="assurance-head">Your security is our priority</h1>
         <p class="assurance-text">
           From secure payments to negative balance protection, you are covered from every angle.
