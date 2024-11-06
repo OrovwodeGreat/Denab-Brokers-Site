@@ -277,6 +277,7 @@ li::marker {
     background-image: url('/assets/images/pic 3.jpeg');
     position: relative;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -480,7 +481,7 @@ footer {
     display: inline-flex;
     gap: 20px;
     /* Spacing between images */
-    animation: scroll 50s linear infinite;
+    animation: scroll 150s linear infinite;
 }
 
 .marquee-content img {

@@ -22,6 +22,7 @@ input {
   border-bottom: 1px solid black;
   outline: none;
   padding-bottom: 8px;
+  font-size: 14px;
 }
 
 .form-container {
@@ -62,7 +63,7 @@ hr{
 }
 
 .form-container form p, .form-forgot {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .form-link{
@@ -112,7 +113,7 @@ hr{
 }
 
 .half-text {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
 }
 .half-logo{
