@@ -86,7 +86,7 @@ hr{
 }
 
 .half-container {
-  background-image: url('/assets/images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg');
+  background-image: url('./assets/images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg');
 
   background-size: cover;
   background-repeat: no-repeat;
