@@ -150,12 +150,11 @@
         margin-right: 2.8rem;
     }
     .half-1{
-        display: flex;
-        flex-direction:row-reverse;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .assurance-pic-1{
-        flex:1 ;
-        width:100px;
+        width:500px;
         height: 500px;
     }
     .half-wrap{
