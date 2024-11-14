@@ -152,6 +152,7 @@
     .half-1{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        direction: rtl;
     }
     .assurance-pic-1{
         width:500px;
