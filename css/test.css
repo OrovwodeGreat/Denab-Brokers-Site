@@ -274,7 +274,7 @@ li::marker {
 
 /* Team section */
 .team {
-    background-image: url('/assets/images/pic 3.jpeg');
+    background-image: url('../assets/images/pic 3.jpeg');
 
     background-size: cover;
     background-repeat: no-repeat;
