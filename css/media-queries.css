@@ -67,7 +67,7 @@
 
 @media all and (min-width:768px) {
     .video-background .content{
-        margin: 12rem 0rem 2rem 0rem;
+        margin: 12rem  0rem;
     }
 }
 
@@ -86,7 +86,14 @@
 
 @media all and (min-width:1280px) {
     .video-background .content{
-        margin: 12.5rem 0rem 2rem 0rem;
+        margin: 12.5rem  0rem;
+    }
+}
+
+
+@media all and (min-width:1440px) {
+    .video-background .content{
+        margin: 13.5rem  0rem;
     }
 }
 
