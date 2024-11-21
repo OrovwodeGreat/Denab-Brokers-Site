@@ -9,6 +9,7 @@
     --highlight-shade: #8b8703;
     --theme-shade: #058b8b;
     --primary-shade: #504f4f;
+    --primary-hover-link-shade: #adadad;
 }
 
   
@@ -23,16 +24,18 @@ nav {
 }
 
 .navbar-nav {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: grid !important; 
     margin: 0rem 1rem;
 
 }
 .nav-item .nav-link{
     color: white;
 }
-.navbar-nav .nav-item .nav-link.active{
-    color: white;
+.nav-item .nav-link:hover{
+    color: var(--primary-hover-link-shade) ;
+}
+.nav-link .dropdown-toggle:hover{
+    color: white !important;
 }
 .navbar .container-fluid{
     margin: 0rem 0.8rem;
@@ -99,7 +102,7 @@ li::marker {
 .video-background {
     position: relative;
     width: 100%;
-    height: 100vh; /* Adjust to your preferred height */
+    /*height: 100vh; Adjust to your preferred height */
     overflow: hidden;
 }
 
@@ -124,7 +127,7 @@ li::marker {
     color: white; /* Text color for visibility over the video */
     text-align: center;
     padding: 20px;
-    margin: 10rem 0rem 1.5rem 0rem;
+    margin: 10rem 0rem;
 }
 
 .hero-wrap .display-1,

@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Navbar section */
+@media all and (min-width:300px) {
+    .navbar-nav{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media all and (min-width:576px) {
     .navbar .container-fluid{
         margin: 0rem 1.5rem;
     }
 }
 @media all and (min-width:768px){
-    .navbar-nav{
-        display: grid;
+     .navbar-nav{
+        display: grid !important;
         grid-template-columns: 1fr 1fr 1fr;
     }
     
@@ -16,6 +22,10 @@
 
 
 @media (min-width: 992px) {
+    .navbar-nav{
+        display: flex !important;
+    }
+    
     .navbar-expand-lg .navbar-collapse {
             display: flex;
             flex-basis: 0;
